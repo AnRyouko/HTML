@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+
+	<!-- atribut form :
+		input 	: untuk memasukkan data, meliputi -> text, password, radio, checkbox, x saran: submit, reset, button
+		textarea: untuk menyimpan pesan
+		select 	: untuk memilih salah satu pilihan
+		button 	: untuk membuat tombol, meliputi -> submit, reset, button
+		label 	: untuk penanda input
+	-->
+	<form>
+		<label for="username">Username : </label>
+		<input type="text" id="username">
+		<br>
+		<label for="password">Password : </label>
+		<input type="password" id="password">
+		<br>
+		<input type="radio" name="jeniskelamin" id="pria"><label for="pria">Pria</label>
+		<input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">Wanita</label>
+		<br>
+		<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+		<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+		<input type="checkbox" id="bersepeda"><label for="bersepeda">bersepeda</label>
+		<br>
+		<textarea>Hai</textarea>
+		<br>
+		<select>
+			<option>Jakarta</option>
+			<option>Bandung</option>
+			<option>Yogyakarta</option>
+		</select>
+		<button type="select">Kirim!</button>
+	</form>
+</body>
+</html>
